@@ -1,0 +1,86 @@
+Here’s a structured approach with **specific prompts** that you can use with your LLM agent to develop the source control system project from start to finish:
+
+### 1. **Understanding the Problem & Outlining the Plan**
+   - **Prompt 1: Problem Breakdown**
+     > "Can you break down the core requirements of building a distributed source control system similar to Git, focusing on initialization, staging, committing, history viewing, branching, merging, and file ignoring?"
+
+   - **Prompt 2: Architecture and Design**
+     > "What’s a good high-level architecture for a simple source control system? Please outline the main components and how they interact with each other (e.g., repositories, commits, branches, staging area, etc.)."
+
+### 2. **Setting Up the Repository Structure**
+   - **Prompt 3: File Structure Design**
+     > "How should I design the internal file structure for a source control system? Specifically, how would I organize files for commits, branches, and repository data? What data structures would be best for this?"
+
+   - **Prompt 4: Initializing a Repository**
+     > "How do I implement the functionality to initialize a new repository in a directory, creating necessary internal files (e.g., .repo directory, commit history)?"
+
+### 3. **Implementing the Staging Area and Commits**
+   - **Prompt 5: Staging Files**
+     > "How can I implement the functionality for staging files (git add) in a source control system? What should happen when a file is added to the staging area?"
+
+   - **Prompt 6: Committing Changes**
+     > "Can you help me design a function for committing changes (git commit)? What data should be saved in the commit object (e.g., timestamp, author, changes)?"
+
+### 4. **Viewing Commit History**
+   - **Prompt 7: Commit History**
+     > "How can I implement functionality to view the commit history in a simple source control system? What data should be stored for each commit, and how should I display this information?"
+
+### 5. **Implementing Branching**
+   - **Prompt 8: Branching**
+     > "How can I implement basic branching in a source control system? How should branches be stored, and how do I manage switching between branches?"
+
+### 6. **Implementing Merging**
+   - **Prompt 9: Merging Branches**
+     > "How can I implement a merge feature for branches in a source control system? How should I handle file merges, and how do I detect conflicts (without resolving them)?"
+
+### 7. **File Ignoring**
+   - **Prompt 10: Ignoring Files**
+     > "How can I implement a feature to ignore files in a source control system (similar to .gitignore)? What file formats should I support for specifying ignored files?"
+
+### 8. **Cloning a Repository**
+   - **Prompt 11: Cloning a Repository**
+     > "How can I implement the ability to clone a repository in my source control system? What data needs to be copied, and how should I handle directories and files?"
+
+### 9. **Conflict Detection**
+   - **Prompt 12: Conflict Detection**
+     > "How do I detect conflicts when merging two branches? What steps should I follow to identify conflicting changes without implementing conflict resolution?"
+
+### 10. **Testing the System**
+   - **Prompt 13: Writing Unit Tests**
+     > "What are some edge cases and unit tests I should consider for the following features of a source control system: initializing repositories, staging files, committing, branching, merging, and ignoring files?"
+
+   - **Prompt 14: Testing Merging**
+     > "Can you provide examples of test cases for merging branches with conflicting changes in a source control system?"
+
+### 11. **Optimizing the System**
+   - **Prompt 15: Performance Optimization**
+     > "Can you suggest ways to optimize the performance of a basic source control system, especially with respect to commit history management, branching, and merging?"
+
+### 12. **Documentation**
+   - **Prompt 16: Writing README**
+     > "Can you help me write a README to explain the architecture and features of my source control system? Please include instructions for setting up and using the system."
+
+   - **Prompt 17: Code Documentation**
+     > "Can you help me write documentation for the following code functions in my source control system: initializing the repo, staging files, committing, viewing history, branching, and merging?"
+
+### 13. **Final Review and Testing**
+   - **Prompt 18: Code Review**
+     > "Can you review this function for committing changes and suggest improvements or bugs? Here’s the code: [insert code]."
+
+   - **Prompt 19: Final Testing Checklist**
+     > "What are the final tests I should run to ensure my source control system is functioning correctly? Please list the most important test cases for commit handling, branching, merging, and viewing history."
+
+### 14. **Additional Enhancements (Optional)**
+   - **Prompt 20: Advanced Features**
+     > "If I wanted to add more advanced features to my source control system, such as rebasing or tagging commits, how would I go about implementing them?"
+
+---
+
+### Suggested Workflow for Using the LLM:
+1. **Start with the architecture and basic features**: Break down the problem and design the system architecture.
+2. **Implement each feature one at a time**: Use the prompts to guide your development, focusing on one feature (e.g., staging files) at a time.
+3. **Test early and often**: Ask for help with edge cases and unit tests as you implement.
+4. **Optimize and finalize**: Use LLM suggestions to optimize performance and write clean documentation.
+5. **Get a final review**: Before submitting, have the LLM review your solution and suggest improvements.
+
+By using these specific prompts, you’ll be able to develop the project from scratch with clear guidance, while focusing on building a clean, well-documented, and effective source control system. Let me know if you'd like to dive deeper into any specific part!
